@@ -49,9 +49,9 @@ fr:
         weight: 1        
 
 # Uncomment the lines below to configure your website in a second language.
-sw:
-  languageCode: sw
-  contentDir: content/sw
+ss:
+  languageCode: ss
+  contentDir: content/ss
   title:  EcoTez swahili...
   params:
     description: Site description in Swahili...
