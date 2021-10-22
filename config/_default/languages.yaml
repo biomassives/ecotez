@@ -22,3 +22,16 @@ zh:
       - name: 传
         url: '#about'
         weight: 1
+        
+# Uncomment the lines below to configure your website in a second language.
+ara:
+  languageCode: ara
+  contentDir: content/ara
+  title: Arabic website title...
+  params:
+#    description: Site description in arabic...
+  menu:
+    main:
+      - name:   عربي
+        url: '#about'
+        weight: 1        
