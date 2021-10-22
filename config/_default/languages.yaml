@@ -16,7 +16,7 @@ zh:
   contentDir: content/zh
   title: Chinese website title...
   params:
-#    description: Site description in Chinese...
+    description: Site description in Chinese...
   menu:
     main:
       - name: 传
@@ -29,22 +29,48 @@ ar:
   contentDir: content/ar
   title: Arabic website title...
   params:
-#    description: Site description in arabic...
+#    description: Site description in Arabic...
   menu:
     main:
       - name:   عربي
         url: '#about'
-        # Uncomment the lines below to configure your website in a second language.
 
-
+# Uncomment the lines below to configure your website in a second language.
 fr:
   languageCode: fr
   contentDir: content/fr
   title:  French website title...
   params:
-#    description: Site description in french...
+#    description: Site description in French...
   menu:
     main:
-      - name: French    
+      - name: Français    
+        url: '#about'
+        weight: 1        
+
+# Uncomment the lines below to configure your website in a second language.
+ru:
+  languageCode: ru
+  contentDir: content/ru
+  title:  Русский Ecotez website title...
+  params:
+    description: Site description in Русский...
+  menu:
+    main:
+      - name: Русский    
+        url: '#about'
+        weight: 1        
+
+
+# Uncomment the lines below to configure your website in a second language.
+sp:
+  languageCode: sp
+  contentDir: content/sp
+  title:  EcoTez espanol...
+  params:
+    description: Site description in Español...
+  menu:
+    main:
+      - name: Español    
         url: '#about'
         weight: 1        
