@@ -20,13 +20,13 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
+email: ecocommunity@protonmail.com
+phone: 303 720 6790
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
+  street: P.O. Box 911
+  city: Nederland
+  region: CO
+  postcode: '80466'
   country: United States
   country_code: US
 coordinates:
@@ -95,7 +95,7 @@ show_related:
   project: true
   publication: true
   event: true
-reading_time: true
+reading_time: false
 section_pager: false
 docs_section_pager: true
 sharing: true
