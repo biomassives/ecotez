@@ -64,8 +64,8 @@ ru:
 
 # Uncomment the lines below to configure your website in a second language.
 sp:
-  languageCode: sp
-  contentDir: content/sp
+  languageCode: es
+  contentDir: content/es
   title:  EcoTez espanol...
   params:
     description: Site description in Español...
