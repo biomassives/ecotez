@@ -49,6 +49,19 @@ fr:
         weight: 1        
 
 # Uncomment the lines below to configure your website in a second language.
+sw:
+  languageCode: sw
+  contentDir: content/sw
+  title:  EcoTez swahili...
+  params:
+    description: Site description in Swahili...
+  menu:
+    main:
+      - name: Swahili    
+        url: '#about'
+        weight: 1        
+
+# Uncomment the lines below to configure your website in a second language.
 ru:
   languageCode: ru
   contentDir: content/ru
@@ -77,15 +90,3 @@ es:
 
 
 
-# Uncomment the lines below to configure your website in a second language.
-sw:
-  languageCode: sw
-  contentDir: content/sw
-  title:  EcoTez swahili...
-  params:
-    description: Site description in Swahili...
-  menu:
-    main:
-      - name: Swahili    
-        url: '#about'
-        weight: 1        
