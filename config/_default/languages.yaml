@@ -24,14 +24,27 @@ zh:
         weight: 1
         
 # Uncomment the lines below to configure your website in a second language.
-ara:
-  languageCode: ara
-  contentDir: content/ara
+ar:
+  languageCode: ar
+  contentDir: content/ar
   title: Arabic website title...
   params:
 #    description: Site description in arabic...
   menu:
     main:
       - name:   عربي
+        url: '#about'
+        # Uncomment the lines below to configure your website in a second language.
+
+
+fr:
+  languageCode: fr
+  contentDir: content/fr
+  title:  French website title...
+  params:
+#    description: Site description in french...
+  menu:
+    main:
+      - name: French    
         url: '#about'
         weight: 1        
