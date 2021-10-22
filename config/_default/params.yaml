@@ -61,15 +61,15 @@ main_menu:
   enable: true
   align: l
   show_logo: true
-  show_language: false
+  show_language: true
   show_day_night: true
   show_search: true
   highlight_active_link: true
 
 # Localization
 
-date_format: 'Jan 2, 2006'
-time_format: '3:04 PM'
+date_format: 'Oct 22, 2021'
+time_format: '12:64 PM'
 address_format: en-us
 
 # Site features
@@ -87,10 +87,10 @@ edit_page:
   editable:
     page: false
     post: false
-    book: false
+    book: true
 show_related:
   book: true
-  page: false
+  page: true
   post: true
   project: true
   publication: true
@@ -100,10 +100,10 @@ section_pager: false
 docs_section_pager: true
 sharing: true
 copyright_license:
-  enable: false
-  allow_derivatives: false
+  enable: true
+  allow_derivatives: true
   share_alike: true
-  allow_commercial: false
+  allow_commercial: true
   notice: 'This work is licensed under {license}'
 abstract_length: 135
 plugins_js: []
@@ -111,7 +111,7 @@ avatar:
   gravatar: false
   shape: circle
 publications:
-  date_format: January 2006
+  date_format: October 2021
   citation_style: apa
 projects:
   post_view: 2
@@ -121,7 +121,7 @@ breadcrumb:
   page_types:
     book: true
 comments:
-  provider: ''
+  provider: 'disqus'
   commentable:
     post: true
     book: true
@@ -129,7 +129,7 @@ comments:
     publication: true
     event: true
   disqus:
-    shortname: ''
+    shortname: 'scdhub'
     show_count: true
   commento:
     url: ''
